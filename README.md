@@ -1,3 +1,3 @@
 Portfolio Marco Tribuzio SA
-Ciao Alicia
-Ciao Gabriel
+Presentation de alicia
+Presentation de Gabriel
