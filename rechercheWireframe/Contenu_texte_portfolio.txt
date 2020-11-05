@@ -3,4 +3,47 @@ Section du site en cascade :
 	- Titre principale
 	- Domaine d'activité
 	
+	header : 
+		<section classe="titre">
+			<h1> Havana team
+		 	<img> image de font presentation
+		 	
+		</section>
+	
+	nav-bar : bare de navigation a gauche qui ne bouge pas au scroll de la page
+		<section class="nav-bar">
+			<img icone> item section 1
+			<img icone> item section 2
+			<img icone> item section 3
+		</section> 
+
+	body : 
+		<section class="presentation">
+			<article> 
+			qui somme nous
+			</article> 
+		</section> 
+		
+		<section class="competence">
+			<article>  
+			notre domaine de competence Wireframe / html / css
+			</article> 
+		</section> 
+ 		
+		<section class="projet">
+			<article>  
+			nos projets
+			</article>  
+		</section> 
+
+	footer : 
+		<footer>
+		- <section class="contact">
+			<article> <h1>nous contacter
+			<article> formulaire de contact 
+		  </section> 
+		</footer>
+				
+		
+			
 	
