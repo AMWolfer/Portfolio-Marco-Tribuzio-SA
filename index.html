@@ -4,10 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <title>Portefolio</title>
+
+    <!--Google fonts-->
+    <!--h1-->
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,600&display=swap" rel="stylesheet">
+
+    <title>Havana Team</title>
 </head>
 <body>
-    <h1>Marco Tribuzio S.A</h1>
-    <p>ceci est un paragraphe de test pour un commit avec Git</p>
+    <header>
+        <section>         
+            <img id="logo" src="./src/images/logo.png">
+        </section>
+    </header>
+
+    <section class="qui-sommes-nous">
+        <article>
+            <h1>Qui sommes nous ?</h1>
+            <p>Nous sommes une équipe de développement web au 
+            service <br>de vos projets, nous metrisons 
+            <br>la création 
+            de wireframe, les htmls et le Css !</p>
+        
+        </article>
+    </section>
+
+    <section class="membre">
+        <a href="./Pages/cvGabrielAlberte.html">
+
+            <article class="membre-gauche">
+                <h2>Gabriel Alberte</h2>
+            </article>
+        </a>
+
+        <a href="">
+            <article class="membre-droite">
+                <h2>Alicia Wolfer</h2>
+            </article>
+        </a>
+    </section>
+
+    <section>
+        <article class="formulaire-contact">
+            <h1>Nous contacter</h1>
+            <form id="contact-form">
+                <label for="label-email">Adresse e-mail :</label><br>
+                <input type="text" id="form-email" name="formEmail" value="E-mail..."><br>
+                
+                <label for="label-email">Message :</label><br>
+                <textarea rows="4" cols="50" name="comment" form="contact-form">
+                    Message....</textarea><br>
+                <input type="submit" value="envoyer">
+            </form>
+        </article>
+    </section>
+
+    <footer>
+    </footer>
+
 </body>
 </html>

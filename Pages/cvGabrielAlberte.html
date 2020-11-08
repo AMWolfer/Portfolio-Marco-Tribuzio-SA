@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cv Gabriel Alberte Figar</title>  
+        <style>
+            section.main {
+                /*background-color: lightseagreen;*/
+                border-style: solid;
+                width:auto;
+                height:auto;
+                margin-left:25%;
+                margin-right:25%;
+                padding-top:1%;
+            }
+
+            section > article > h2{
+                font-family: monospace;
+                font-style:normal;
+                font-weight: lighter;
+                font-size:large;
+                background-color:black;
+                color:#e1e1e1;  
+                width:237px;
+                /*height:25px;*/
+                padding-left:60px;
+            }
+
+            section > article > p {
+                font-family: monospace;
+                font-size: 14px;
+                color:black; 
+                padding-left:4%;
+                margin-top:20px;
+                margin-top: -11px;
+            }
+
+            section > article > .sous-titre {
+                text-decoration: underline; 
+            }
+
+            section.competence > article > h2{
+                width:93px;
+                padding-left:4%;
+            }
+
+            section.languageEtTechnologies > article > h2 {
+                width:203px;
+                padding-left:4%
+            }
+
+            section.logicielsUtilise > article > h2 {
+                width:152px;
+                padding-left:4%
+            }
+
+            section.experiencesPro > article > h2 {
+                width:237px;
+                padding-left:4%
+            }
+
+            section.formation > article > h2 {
+                width:76px;
+                padding-left:4%
+            }
+
+            section.centreInterets > article > h2 {
+                width:152px;
+                padding-left:4%
+            }
+
+            section.experiencesPro > article > .paragraphe {
+                margin-bottom:23px;
+            }
+        </style>
+    </head>
+    <body>
+        <section class="main">
+            <section class="entete">
+                <article class="content">
+                    <p>Gabriel Alberte Figar<br>
+                    Promenade du voisinage 1217 - Meyrin <br>
+                    21/07/93 <br>
+                    078 837 14 02 <br>
+                    gabrielalberte@gmail.com <br>
+                    </p>
+                    
+                </article>
+            </section>
+
+            <section class="competence">
+                <article class="content">
+                    <h2>Compétences</h2>
+                    <p>- Création de site web et programmation d'application</p>
+                    <p>- Création d'identité graphique (logo, affiche, maquette web)</p> 
+                </article>
+            </section>
+
+            <section class="languageEtTechnologies">
+                <article>
+                    <h2>Language et technologies</h2>
+                    <p>- html/css, sql, c#</p>
+                    <p>- FrameWork Bootstrap, CMS Wordpress, FrameWork Dot.Net</p>
+                    <p>- Petite notions en javascript, php, c, commande shell linux, Bash</p>
+                </article>
+            </section>
+
+            <section class="logicielsUtilise">
+                <article>
+                    <h2>Logiciels utilisés</h2>
+                    <p>- Suite adobe, Maya, Visual studio, Visio, MAMP, Wordpress</p>
+                </article>
+            </section>
+
+            <section class="experiencesPro">
+                <article>
+                    <h2>Expériences professionnelles</h2>
+
+                    <p class="sous-titre">- Septembre 2016 – Août 2018 </p>  
+                    <p class="paragraphe">Création du collectif Oizo Factory <br>  
+                        Accueil et mise en place de projet avec les clients <br>     
+                        Création de site web statique responsive <br> 
+                        Installation et création de template Wordpress</p>
+                </article>
+
+                <article>
+                    <p class="sous-titre">- Décembre 2015 - Août 2017 </p>
+                    
+                    <p class="paragraphe">Employé au Zoo au sein de l’Usine à Genève <br>
+                        Accueil et sécurité du public</p>    
+                </article>
+
+                <article>
+                    <p class="sous-titre">- Août 2015 - Septembre 2015</p>
+
+                    <p class="paragraphe">Stage chez Itopie informatique <br>
+                        Introduction aux lignes de commande Linux <br>
+                        Démontage – remontage d’un desktop <br>  
+                        Clonage avec cloneZilla <br>  
+                        Installation drivers  Changement de modules hardware <br> 
+                        Accueil clientèle accompagné par le responsable d’atelier</p>    
+                </article>
+            </section>
+
+            <section class="formation">
+                <article>
+                    <h2>Formation</h2>
+                    <p class="sous-titre">- Septembre 2015 - Août 2017</p>
+                    <p>Suivi de cours de développeur d’applications sur 2 ans, à 
+                        l’école supérieure <br>
+                        de l’Idec à Renens en Suisse.</p>
+                </article>
+
+                <article>
+                    <p class="sous-titre">-  Juillet 2015</p>
+                    <p>CFPAA - arts appliqués, Genève, Suisse  CFC en tant que concepteur multimédia</p>
+                </article>
+            </section>
+
+            <section class="centreInterets">
+                <article>
+                    
+                <button onclick="myFunction()">  
+                    <h2>Centres d'intérêts</h2>
+                </button>
+        
+                        <p>- Modélisation 3d </p>
+                        <p>- Développement d’application et sécurité informatique</p>
+                        <p>- Cinéma (western spaghetti)- Discipline sportive Systema</p>
+                    
+
+                </article>
+            </section>
+        </section><!--/section main fin-->
+    </body>
+    <style>
+        .centreInterets{
+            position: relative;
+            display: inline-block;
+        }
+
+        .centreInterets > article > p {
+            display:none;
+        }
+
+        .show {
+            display:block;
+        }
+
+    </style>
+    <script>
+        function myFunction() {
+            //document.getElementById("dropdown-paragraphe").classList.toggle("show");
+            alert("ça marche !!!");           
+        }
+    </script>
+
+</html>
