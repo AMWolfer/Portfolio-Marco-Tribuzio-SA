@@ -1,0 +1,18 @@
+
+
+<div class="row">
+    <div class="col-lg-3">
+        <div >
+            <a href="./Pages/cvGabrielAlberte.html" class="btn btn-primary btn-round">CV Gabriel</a>
+                <p></p>
+                <p Gabriel Alberte</p>
+        </div>
+    </div>
+    <div class="col-lg-3">
+        <div  >
+            <a href="./Pages/CV_AMW.html" class="btn btn-primary btn-round">CV Alicia</a>
+            <p></p>
+               <p Alicia Wolfer</p>
+        </div>
+    </div>
+</div>
