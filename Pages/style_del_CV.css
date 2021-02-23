@@ -1,7 +1,17 @@
-h1 {
+/* Section 2 : Formation */
+
+/* Section 3: Expériences professionnelles */
+
+/* Section 4: Langues */
+
+/* Footer: Loisirs */
+
+
+h2 {
   color: red;
 }
-h2 {
+
+h3 {
   color: green;
 }
 
@@ -18,7 +28,7 @@ body {
 
 #img-cv {
     margin-top: 0px;
-    margin-left: 0px;
+    margin-left: 50px;
     margin-right: 13px;
     padding-left: 0px;
     width: 10%;
@@ -28,9 +38,9 @@ body {
 }
 
 .main-description {
-  margin-top: 100px;
+  margin-top: 30px;
   text-align: left;
-  justify-content: left;
+  justify-content: center;
   background-color: pink;
 }
 
@@ -44,14 +54,17 @@ body {
 }
 /* Section 1 : Côte Gauche */
 
-.container {
+.container-cv {
   margin: 0px;
-  padding: 5px;
+  
   display: flex;
   flex-direction: row;
-  
   width: 100%;
-  margin: auto;
+  flex-direction: column;
+  justify-content: left;
+  border: 2px solid green;
+  border-radius: 5px;
+
 }
 
 header {
@@ -117,15 +130,7 @@ header {
 .Info {
   color: #0c75c1;
 }
-/* Section 2 : Formation */
 
-/* Section 3: Certifications */
-
-/* Section 4: Expériences professionnelles */
-
-/* Section 5: Langues */
-
-/* Footer: Loisirs */
 
 footer {
   color: rgb(159, 83, 33);
