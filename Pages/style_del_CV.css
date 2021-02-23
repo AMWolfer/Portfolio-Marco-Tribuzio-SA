@@ -6,23 +6,31 @@ h2 {
 }
 
 body {
+  margin: 0px;
+  padding: 5px;
   text-align: center;
   font-family: arial;
   font-size: large;
   text-align: left;
+  width: 100%;
+  margin: 0 auto;
 }
 
 #img-cv {
-  margin-top: 25px;
-  margin-left: 53px;
-  margin-right: 13px;
-  padding-left: 120px;
-  width: 60%;
-  
-  size: 10% 10%;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 13px;
+    padding-left: 0px;
+    width: 10%;
+    height: 10%;
+
+  background-color: with;
 }
 
 .main-description {
+  margin-top: 100px;
+  text-align: left;
+  justify-content: left;
   background-color: pink;
 }
 
@@ -37,26 +45,34 @@ body {
 /* Section 1 : Côte Gauche */
 
 .container {
+  margin: 0px;
+  padding: 5px;
   display: flex;
   flex-direction: row;
+  
   width: 100%;
-  margin: 0 auto;
+  margin: auto;
 }
 
 header {
-  width: 70%;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: left;
+
+  border: 2px solid green;
+  border-radius: 5px;
 }
 
 .Section-gauche {
   color: red;
   text-align: left;
    
-  margin: 5px;
+  margin: 0px;
   padding: 5px;
+
+  width: 100%;
 
   border: 2px solid green;
   border-radius: 5px;
@@ -64,8 +80,9 @@ header {
 }
 
 .Section-droit {  
-  margin: 10px;
+  margin: 0px;
   padding: 5px;
+  width: 100%;
 
   border: 2px solid green;
   border-radius: 5px;
@@ -85,17 +102,21 @@ header {
 }
 
 .CMS {
-  color: #ffd700;
+  color: #329091;
 }
 
 .Systemes {
-  color: #ff00ff;
+  color: #750875;
 }
 
 .Autre {
   color: #00bfff;
 }
 
+
+.Info {
+  color: #0c75c1;
+}
 /* Section 2 : Formation */
 
 /* Section 3: Certifications */
@@ -107,9 +128,9 @@ header {
 /* Footer: Loisirs */
 
 footer {
-  color: rgb(47, 101, 209);
+  color: rgb(159, 83, 33);
   text-align: left;
-  height: 30vh;
+  height: 45vh;
   margin: 5px;
   padding: 5px;
   flex-direction: row;
